@@ -100,3 +100,6 @@ Some data is classified by our business logic and is not fetched directly from G
 - Real user - user who has had more than three "events" (commit, PR, etc.) or user who has more than three followers.
 - Active user - user who has an event in the past year.
 - Country - while users can input their location in their profile, this is free-text which make it difficult to aggregate. To solve this problem, we use nominatim.openstreetmap.org location api to fetch the country of every location free-text and extract its country.
+
+
+Test
